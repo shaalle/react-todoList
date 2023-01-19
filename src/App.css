@@ -94,15 +94,24 @@ height: 50px;
 display: flex;
 margin: 15px;
 justify-content: space-between; 
+align-items: center;
+
 }
 
 .task .trash-can:hover path{
 fill:#FF5450
 }
 
-.trash-can{
-margin-top: 40px;
+.check-mark {
+
+position: absolute;
+right: 50px;
 }
+
+.trash-can{
+margin-top: 0;
+}
+
 button, input {
   overflow: visible;
 }
@@ -133,5 +142,15 @@ font-size: 1rem;
 position: absolute;
 top: 28px;
 font-family: monospace;
+
+}
+
+p {
+color: white;
+
+}
+
+.task-name {
+color: white;
 
 }
